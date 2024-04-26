@@ -28,7 +28,7 @@ h2 {
     padding-bottom: 10px;
 }
 ul, ol{
-    padding: 0 25px;
+    padding: 0 20px;
 }
 li {
     font-size: 15px;
@@ -72,6 +72,10 @@ main .ingre, .instruct {
 }
 main .instruct li{
     font-size: 15px;
+}
+main .instruct li::marker{
+    font-weight: 600;
+    color: hsl(332, 51%, 32%);
 }
 main .nutri {
     padding: 25px 0;
